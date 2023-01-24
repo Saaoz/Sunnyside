@@ -165,16 +165,17 @@ h6{
     font-size: 1.4rem;
     font-family: "Barlow";
     font-weight: 600;
+    color: #A7AAAD;
 }
 
 footer h1{
     color:#2C7566 ;
 }
-.link-footer a{
-    color: #458D7E;
-    font-size: 1.8rem;
-    font-family: "Barlow";
-    font-weight: 600;
+    .link-footer a{
+        color: #458D7E;
+        font-size: 1.8rem;
+        font-family: "Barlow";
+        font-weight: 600;
 }
 
 /* bordel sans nom */
@@ -189,7 +190,127 @@ header{
     /* Test github */
 }
 
-.top-header{
-    display: flex;
-    justify-content: space-between
+    .top-header{
+        display: flex;
+        justify-content: space-between
 }
+
+    #sidebar-btn{
+        display: flex;
+        flex-direction: column;
+        gap:-10rem
+}
+
+    .hero{
+        display: flex;
+        padding-inline: 2.4rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 8rem;
+}
+
+
+/* FIN HEADER */
+
+/* MAIN CONTENT */
+
+main{
+    display: grid;
+    text-align: center;
+    
+}
+
+    .cherry{
+        background-image: url("../img/cherry.png");
+        height: 60rem;
+}
+        .cherry-content{
+            padding-top: 39.8rem;
+        }
+
+
+    .orange{
+        background-image: url("../img/orange.png");
+        height: 60rem;
+}   
+        .orange-content{
+            padding-top: 39.8rem;
+}
+
+/* TEAMDIFF */
+
+    .team{
+        text-align: center;
+    }   
+        .profil{
+            display: flex;
+            flex-direction: column;
+            gap: 3.2rem;
+            padding-bottom: 6.4rem;
+        }
+
+/* BEFORE LE PIED */
+
+
+
+
+    .grid-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .grid-img img{
+            width: 18.7rem;
+            height: 18.7rem;
+        }
+
+
+/* DEBUT ECHEC */
+
+
+    /* .grid-img{
+        display: grid;
+        grid-row: 1fr 1fr 1fr 1fr;
+        grid: wrap;
+        gap:0.5rem;
+    } */
+        /* .grid-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        } */
+        /* }
+            .milk-grid {
+                grid-column-start: 1;
+                grid-column-end: 1;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }       
+            .orange-grid{
+                grid-column-start: 2;
+                grid-column-end: 1;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            } */
+
+/* FIN ECHEC */
+
+Footer{
+    text-align: center;
+    background-color: #90D4C6;
+}
+    footer h1{
+        padding-top: 6.4rem;
+        text-align: center;
+    }
+        .link-footer{
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 4rem;
+            padding-bottom: 8.8rem ;
+        }
+            .link-reseaux{
+                display: flex;
+                justify-content: center;
+                gap: 2.8rem ;
+            }
