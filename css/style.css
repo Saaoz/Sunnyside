@@ -1,0 +1,193 @@
+/* fraunces-regular - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/fraunces-v26-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fraunces-v26-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* fraunces-700 - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/fraunces-v26-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fraunces-v26-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* fraunces-900 - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/fraunces-v26-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fraunces-v26-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* barlow-regular - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* barlow-500 - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/barlow-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* barlow-600 - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/barlow-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* barlow-700 - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/barlow-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*1 a 66 ENSEMBLE DES FONTS  */
+
+body{
+    width: 37.5rem;
+}
+
+/* LES H */
+h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 4rem;
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h3{
+    font-size: 3.2rem;
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: #24303E;
+}
+
+h4{
+    font-size: 2.8rem;
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: #24554A;
+}
+
+h5{
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+h6{
+    font-size: 2rem;
+    font-family: "Fraunces";
+    font-weight: 500;
+    color: #A7AAAD;
+}
+/* LES TEXTES + DECO*/
+.body-p{
+    font-size: 1.8rem;
+    font-family: "Barlow";
+    font-weight: 600;
+    color: #808397;
+}
+
+.learn-link a{
+    color: #24303E;
+    font-size: 1.5rem;
+    font-family: "Fraunces";
+    font-weight: 600;
+}
+
+.eggs-link{
+    stroke: #FAD400;
+}
+
+.pink-link{
+    stroke: #FE7766 ;
+}
+
+.cherry-content p{
+    font-size: 1.6rem;
+    font-family: "Barlow";
+    font-weight: 600;
+    color: #24554A;
+}
+
+.orange-content p{
+    font-size: 1.6rem;
+    font-family: "Barlow";
+    font-weight: 600;
+    color: #19536C;
+}
+.orange-content h4{
+    color: #052C3B;
+}
+
+.profil-p p{
+    font-size: 1.8rem;
+    font-family: "Barlow";
+    font-weight: 600;
+    color: #5B636D;
+}
+
+.profil-rank :first-child{
+    font-size: 1.8rem;
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: #24303E;
+}
+.profil-rank :last-child{
+    font-size: 1.4rem;
+    font-family: "Barlow";
+    font-weight: 600;
+}
+
+footer h1{
+    color:#2C7566 ;
+}
+.link-footer a{
+    color: #458D7E;
+    font-size: 1.8rem;
+    font-family: "Barlow";
+    font-weight: 600;
+}
+
+/* bordel sans nom */
+
+
+/* HEADER */
+
+header{
+    background-image: url("../img/photo-1569201529241-f96205e2f2c6.svg");
+    height: 53.8rem;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between
+}
